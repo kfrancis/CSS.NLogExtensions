@@ -111,6 +111,16 @@ namespace CSS.NLog.ImageExtension
                         }
                     }
 
+                    // Let's make sure we don't overwrite an existing file, make it more unique
+                    for (int fileNum = 0; fileNum < 100; fileNum++)
+                    {
+                        if (!File.Exists(Path.Combine(filePath, imageFilename)))
+                        {
+                            break;
+                        }
+                        imageFilename = string.Format("{0}-{1}.jpg", imageFilename, fileNum);
+                    }
+
                     // Save the jpg screenshot
                     bitmap.Save(Path.Combine(filePath, imageFilename), ImageFormat.Jpeg);
                 }
