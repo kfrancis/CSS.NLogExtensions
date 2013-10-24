@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>kfrancis</authors>
+    <owners>Clinical Support Systems</owners>
+    <licenseUrl>https://raw.github.com/kfrancis/CSS.NLogExtensions/master/LICENSE.md</licenseUrl>
+    <projectUrl>https://github.com/kfrancis/CSS.NLogExtensions</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>$description$</description>
+    <copyright>Copyright 2013</copyright>
+    <tags>nlog screenshot image log</tags>
+  </metadata>
+</package>

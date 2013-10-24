@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{EC9F69F5-3A54-4A47-A5E6-7032A75E94B7}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageExtensionSample", "Source\ImageExtensionSample\ImageExtensionSample.csproj", "{79065720-E6BA-4C9D-8D14-5D77EC75EEFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSS.NLog.ImageExtension", "Source\CSS.NLog.ImageExtension\CSS.NLog.ImageExtension.csproj", "{E400D77C-53D2-47F2-9EA3-8007917FB796}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSS.NLog.ImageExtension.Tests", "Source\CSS.NLog.ImageExtension.Tests\CSS.NLog.ImageExtension.Tests.csproj", "{1BB45C10-1EDD-41FD-BE90-09AAEB36E1D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79065720-E6BA-4C9D-8D14-5D77EC75EEFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79065720-E6BA-4C9D-8D14-5D77EC75EEFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79065720-E6BA-4C9D-8D14-5D77EC75EEFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79065720-E6BA-4C9D-8D14-5D77EC75EEFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E400D77C-53D2-47F2-9EA3-8007917FB796}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E400D77C-53D2-47F2-9EA3-8007917FB796}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E400D77C-53D2-47F2-9EA3-8007917FB796}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E400D77C-53D2-47F2-9EA3-8007917FB796}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BB45C10-1EDD-41FD-BE90-09AAEB36E1D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BB45C10-1EDD-41FD-BE90-09AAEB36E1D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BB45C10-1EDD-41FD-BE90-09AAEB36E1D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BB45C10-1EDD-41FD-BE90-09AAEB36E1D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
